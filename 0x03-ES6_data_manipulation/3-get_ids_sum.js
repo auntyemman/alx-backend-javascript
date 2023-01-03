@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export default function getStudentsSum(getListStudents) {
   const arrObj = [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
