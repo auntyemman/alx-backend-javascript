@@ -6,4 +6,4 @@ export default function getStudentIdsSum(getListStudents) {
     { id: 5, firstName: 'Serena', location: 'San Francisco' },
   ];
   return arrObj.reduce(((reducer, arrObj) => reducer + arrObj.id), 0);
-i}
+}
