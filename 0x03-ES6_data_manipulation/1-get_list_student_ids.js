@@ -1,3 +1,4 @@
+/*-----Using Map method in a function-----*/
 export default function getListStudentIds(arg){
 	 const arrObj = [
 		 { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
@@ -8,7 +9,5 @@ export default function getListStudentIds(arg){
 	if (Array.isArray(arg)){
                 return mapArrObj;
         }
-        else
-                return [];
-
+        return [];
 }
