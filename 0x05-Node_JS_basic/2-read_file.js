@@ -1,6 +1,6 @@
-import fs from 'fs';
+const fs = require('fs');
 
-export default function countStudents(path) {
+function countStudents(path) {
   let content;
 
   try {
